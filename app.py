@@ -5,7 +5,7 @@ from pathlib import Path
 import glob
 from langchain_groq import ChatGroq
 from sentence_transformers import SentenceTransformer  # New embedding model
-from langchain.embeddings import HuggingFaceEmbeddings  # Wrapper for SentenceTransformer
+from langchain_huggingface import HuggingFaceEmbeddings  # Wrapper for SentenceTransformer
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
