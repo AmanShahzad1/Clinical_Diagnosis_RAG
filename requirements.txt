@@ -9,3 +9,4 @@ langchain-groq
 sentence_transformers
 ragas 
 datasets
+langchain-huggingface
